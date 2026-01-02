@@ -97,158 +97,157 @@
             </div>
         </div>
 
-      <!-- محادثة الذكاء الاصطناعي -->
-<div class="ai-chat-container" id="aiChatContainer">
-    <div class="ai-chat-header">
-        <div class="ai-chat-title">
-            <div class="ai-avatar-small">
-                <i class="fas fa-robot"></i>
+        <!-- محادثة الذكاء الاصطناعي -->
+        <div class="ai-chat-container" id="aiChatContainer">
+            <div class="ai-chat-header">
+                <div class="ai-chat-title">
+                    <div class="ai-avatar-small">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div>
+                        <h4>المساعد الذكي للمتجر</h4>
+                        <p class="ai-status-text">متصل - جاهز للمساعدة</p>
+                    </div>
+                </div>
+                <button class="close-chat" id="closeChat">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
-            <div>
-                <h4>المساعد الذكي للمتجر</h4>
-                <p class="ai-status-text">متصل - جاهز للمساعدة</p>
-            </div>
-        </div>
-        <button class="close-chat" id="closeChat">
-            <i class="fas fa-times"></i>
-        </button>
-    </div>
-    
-    <div class="ai-chat-messages" id="aiChatMessages">
-        <div class="ai-message">
-            <div class="message-content">
-                <p>مرحباً! أنا المساعد الذكي لمتجر المستقبل 2050. كيف يمكنني مساعدتك اليوم؟</p>
-                <p class="message-time">الآن</p>
-            </div>
-        </div>
-        
-        <div class="ai-message">
-            <div class="message-content">
-                <p>يمكنني مساعدتك في:</p>
-                <ul class="ai-capabilities">
-                    <li><i class="fas fa-check"></i> إتمام عملية الشراء تلقائياً</li>
-                    <li><i class="fas fa-check"></i> الرد على استفسارات العملاء</li>
-                    <li><i class="fas fa-check"></i> إدارة المخزون والطلبات</li>
-                    <li><i class="fas fa-check"></i> تقديم توصيات شخصية</li>
-                    <li><i class="fas fa-check"></i> تحليل بيانات المبيعات</li>
-                </ul>
-                <p class="message-time">الآن</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="ai-chat-input">
-        <div class="quick-actions">
-            <button class="quick-action" data-action="products">عرض المنتجات</button>
-            <button class="quick-action" data-action="track">تتبع الطلب</button>
-            <button class="quick-action" data-action="support">الدعم الفني</button>
-            <button class="quick-action" data-action="payment">طرق الدفع</button>
-        </div>
-        
-        <div class="input-container">
-            <input type="text" id="aiChatInput" placeholder="اكتب رسالتك هنا للمساعد الذكي...">
-            <button id="sendMessage">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-            <button id="voiceInput">
-                <i class="fas fa-microphone"></i>
-            </button>
-        </div>
-    </div>
-</div>
-
-  <!-- المحتوى الرئيسي -->
-<main class="future-container">
-    <!-- قسم الهولوغرام -->
-    <section class="hologram-hero">
-        <div class="hologram-content">
-            <h1 class="hologram-text animate__animated animate__fadeIn">مرحباً بكم في مستقبل التسوق</h1>
-            <p class="hologram-subtitle">متجر إلكتروني يعمل بالذكاء الاصطناعي - إدارة تلقائية بالكامل</p>
             
-            <div class="hero-features">
-                <div class="feature">
-                    <div class="feature-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h4>إدارة بالذكاء الاصطناعي</h4>
-                        <p>نظام ذكي يدير جميع عمليات المتجر تلقائياً</p>
+            <div class="ai-chat-messages" id="aiChatMessages">
+                <div class="ai-message">
+                    <div class="message-content">
+                        <p>مرحباً! أنا المساعد الذكي لمتجر المستقبل 2050. كيف يمكنني مساعدتك اليوم؟</p>
+                        <p class="message-time">الآن</p>
                     </div>
                 </div>
                 
-                <div class="feature">
-                    <div class="feature-icon">
-                        <i class="fas fa-globe"></i>
+                <div class="ai-message">
+                    <div class="message-content">
+                        <p>يمكنني مساعدتك في:</p>
+                        <ul class="ai-capabilities">
+                            <li><i class="fas fa-check"></i> إتمام عملية الشراء تلقائياً</li>
+                            <li><i class="fas fa-check"></i> الرد على استفسارات العملاء</li>
+                            <li><i class="fas fa-check"></i> إدارة المخزون والطلبات</li>
+                            <li><i class="fas fa-check"></i> تقديم توصيات شخصية</li>
+                            <li><i class="fas fa-check"></i> تحليل بيانات المبيعات</li>
+                        </ul>
+                        <p class="message-time">الآن</p>
                     </div>
-                    <div class="feature-text">
-                        <h4>متعدد اللغات والعملات</h4>
-                        <p>يدعم 15 لغة و 20 عملة عالمية</p>
+                </div>
+            </div>
+            
+            <div class="ai-chat-input">
+                <div class="quick-actions">
+                    <button class="quick-action" data-action="products">عرض المنتجات</button>
+                    <button class="quick-action" data-action="track">تتبع الطلب</button>
+                    <button class="quick-action" data-action="support">الدعم الفني</button>
+                    <button class="quick-action" data-action="payment">طرق الدفع</button>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" id="aiChatInput" placeholder="اكتب رسالتك هنا للمساعد الذكي...">
+                    <button id="sendMessage">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <button id="voiceInput">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- المحتوى الرئيسي -->
+        <main class="future-container">
+            <!-- قسم الهولوغرام -->
+            <section class="hologram-hero">
+                <div class="hologram-content">
+                    <h1 class="hologram-text animate__animated animate__fadeIn" data-translate="welcome">مرحباً بكم في مستقبل التسوق</h1>
+                    <p class="hologram-subtitle" data-translate="slogan">متجر إلكتروني يعمل بالذكاء الاصطناعي - إدارة تلقائية بالكامل</p>
+                    
+                    <div class="hero-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-translate="ai">إدارة بالذكاء الاصطناعي</h4>
+                                <p data-translate="ai_desc">نظام ذكي يدير جميع عمليات المتجر تلقائياً</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-translate="multi">متعدد اللغات والعملات</h4>
+                                <p data-translate="multi_desc">يدعم 15 لغة و 20 عملة عالمية</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-translate="fast">معاملات فورية</h4>
+                                <p data-translate="fast_desc">إتمام الشراء في ثوانٍ بواسطة الذكاء الاصطناعي</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="feature">
-                    <div class="feature-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h4>معاملات فورية</h4>
-                        <p>إتمام الشراء في ثوانٍ بواسطة الذكاء الاصطناعي</p>
+                <div class="hologram-display">
+                    <div class="hologram-circle">
+                        <div class="hologram-ring"></div>
+                        <div class="hologram-ring"></div>
+                        <div class="hologram-ring"></div>
+                        <div class="hologram-core">
+                            <i class="fas fa-robot"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <div class="hologram-display">
-            <div class="hologram-circle">
-                <div class="hologram-ring"></div>
-                <div class="hologram-ring"></div>
-                <div class="hologram-ring"></div>
-                <div class="hologram-core">
-                    <i class="fas fa-robot"></i>
+            </section>
+
+            <!-- المنتجات الذكية -->
+            <section class="smart-products">
+                <div class="section-header">
+                    <h2 data-translate="products">المنتجات الذكية</h2>
+                    <div class="ai-filter">
+                        <div class="filter-title">
+                            <i class="fas fa-filter"></i>
+                            <span data-translate="filter">التصفية الذكية</span>
+                        </div>
+                        <div class="filter-options">
+                            <button class="filter-option active" data-filter="all" data-translate="all">الكل</button>
+                            <button class="filter-option" data-filter="trending" data-translate="trending">الأكثر طلباً</button>
+                            <button class="filter-option" data-filter="ai_recommended" data-translate="recommended">موصى به</button>
+                            <button class="filter-option" data-filter="discounted" data-translate="discounted">بخصم</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>    
+                
+                <div class="products-hologrid" id="productsHologrid">
+                    <!-- المنتجات تُحمّل بواسطة JavaScript -->
+                </div>
+                
+                <div class="ai-recommendation">
+                    <div class="recommendation-header">
+                        <i class="fas fa-magic"></i>
+                        <h4 data-translate="personal_recommendation">توصية شخصية من الذكاء الاصطناعي</h4>
+                    </div>
+                    <div class="recommendation-content" id="aiRecommendation">
+                        <p data-translate="loading_rec">جاري تحليل تفضيلاتك...</p>
+                    </div>
+                </div>
+            </section>
 
-  <!-- المنتجات الذكية -->
-<section class="smart-products">
-    <div class="section-header">
-        <h2>المنتجات الذكية</h2>
-        <div class="ai-filter">
-            <div class="filter-title">
-                <i class="fas fa-filter"></i>
-                <span>التصفية الذكية</span>
-            </div>
-            <div class="filter-options">
-                <button class="filter-option active">الكل</button>
-                <button class="filter-option">الأكثر طلباً</button>
-                <button class="filter-option">موصى به</button>
-                <button class="filter-option">بخصم</button>
-            </div>
-        </div>
-    </div>
-    
-    <div class="products-hologrid" id="productsHologrid">
-        <!-- المنتجات تُحمّل بواسطة JavaScript -->
-    </div>
-    
-    <div class="ai-recommendation">
-        <div class="recommendation-header">
-            <i class="fas fa-magic"></i>
-            <h4>توصية شخصية من الذكاء الاصطناعي</h4>
-        </div>
-        <div class="recommendation-content" id="aiRecommendation">
-            <p>جاري تحليل تفضيلاتك...</p>
-        </div>
-    </div>
-  
-</section>
-
-             <!-- نظام الدفع الذكي -->
+            <!-- نظام الدفع الذكي -->
             <section class="smart-payment">
                 <div class="section-header">
-                    <h2>نظام الدفع الذكي</h2>
-                    <p class="section-subtitle">إتمام الدفع بلمسة واحدة باستخدام الذكاء الاصطناعي</p>
+                    <h2 data-translate="payment">نظام الدفع الذكي</h2>
+                    <p class="section-subtitle" data-translate="payment_desc">إتمام الدفع بلمسة واحدة باستخدام الذكاء الاصطناعي</p>
                 </div>
                 
                 <div class="payment-methods">
@@ -256,44 +255,460 @@
                         <div class="payment-icon">
                             <i class="fas fa-fingerprint"></i>
                         </div>
-                        <h4>الدفع البيومتري</h4>
-                        <p>بصمة أو تعرف على الوجه</p>
+                        <h4 data-translate="biometric">الدفع البيومتري</h4>
+                        <p data-translate="biometric_desc">بصمة أو تعرف على الوجه</p>
                     </div>
                     
                     <div class="payment-method futuristic active">
                         <div class="payment-icon">
                             <i class="fas fa-brain"></i>
                         </div>
-                        <h4>الدفع بالذكاء الاصطناعي</h4>
-                        <p>إتمام تلقائي بالتحليل الذكي</p>
+                        <h4 data-translate="ai_payment">الدفع بالذكاء الاصطناعي</h4>
+                        <p data-translate="ai_payment_desc">إتمام تلقائي بالتحليل الذكي</p>
+                    </div>
+                    
+                    <div class="payment-method futuristic">
+                        <div class="payment-icon">
+                            <i class="fab fa-bitcoin"></i>
+                        </div>
+                        <h4 data-translate="crypto">العملات الرقمية</h4>
+                        <p data-translate="crypto_desc">بيتكوين، إيثريوم وغيرها</p>
+                    </div>
+                    
+                    <div class="payment-method futuristic">
+                        <div class="payment-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h4 data-translate="digital">البطاقات الرقمية</h4>
+                        <p data-translate="digital_desc">بطاقات ائتمان ومدى</p>
                     </div>
                 </div>
                 
-                <div class="ai-payment-processor">
+                <div class="ai-payment-processor" id="aiPaymentProcessor">
                     <div class="processor-header">
-                        <h4>معالج الدفع الذكي</h4>
+                        <h4 data-translate="process_payment">معالج الدفع الذكي</h4>
                         <div class="ai-status-indicator">
                             <div class="status-dot active"></div>
-                            <span>جاهز</span>
+                            <span data-translate="ready">جاهز</span>
                         </div>
                     </div>
                     
                     <div class="payment-form">
-                        <button class="payment-process-btn" id="processPayment">
+                        <div class="form-group">
+                            <label data-translate="amount">المبلغ:</label>
+                            <div class="amount-input">
+                                <input type="number" id="paymentAmount" value="0.00" min="0" step="0.01">
+                                <div class="currency-display" id="paymentCurrency">ر.س</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label data-translate="payment_method">طريقة الدفع:</label>
+                            <select id="paymentMethodSelect">
+                                <option value="ai" data-translate="ai_auto">الدفع التلقائي بالذكاء الاصطناعي</option>
+                                <option value="card" data-translate="digital_card">البطاقة الرقمية</option>
+                                <option value="crypto" data-translate="crypto">العملات الرقمية</option>
+                                <option value="biometric" data-translate="biometric">البصمة/التعرف على الوجه</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label data-translate="ai_security">التحقق الذكي:</label>
+                            <div class="ai-security-check">
+                                <div class="security-status">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span data-translate="secure">محمي بالذكاء الاصطناعي</span>
+                                </div>
+                                <div class="security-score">
+                                    <span data-translate="risk">مستوى المخاطرة:</span>
+                                    <span class="score-low" data-translate="low">منخفض</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="payment-process-btn" id="processPayment" data-translate="process">
                             <i class="fas fa-bolt"></i>
                             إتمام الدفع الذكي
+                        </button>
+                    </div>
+                    
+                    <div class="ai-analysis">
+                        <div class="analysis-header">
+                            <i class="fas fa-chart-pie"></i>
+                            <span data-translate="ai_analysis">التحليل الذكي للمعاملة</span>
+                        </div>
+                        <div class="analysis-results">
+                            <div class="analysis-result">
+                                <span data-translate="fraud_detection">كشف الاحتيال:</span>
+                                <span class="result-pass" data-translate="safe">آمن</span>
+                            </div>
+                            <div class="analysis-result">
+                                <span data-translate="speed">سرعة المعاملة:</span>
+                                <span class="result-fast" data-translate="instant">فورية</span>
+                            </div>
+                            <div class="analysis-result">
+                                <span data-translate="success_rate">معدل النجاح:</span>
+                                <span class="result-high">99.8%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- لوحة التحكم الذكية -->
+            <section class="ai-dashboard">
+                <div class="section-header">
+                    <h2 data-translate="dashboard">لوحة التحكم الذكية</h2>
+                    <p class="section-subtitle" data-translate="dashboard_desc">إدارة المتجر بالكامل بواسطة الذكاء الاصطناعي</p>
+                </div>
+                
+                <div class="dashboard-grid">
+                    <div class="dashboard-card sales">
+                        <div class="card-header">
+                            <h4 data-translate="sales">المبيعات</h4>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="stat-large" id="totalSales">0</div>
+                            <div class="stat-trend up">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+12% هذا الشهر</span>
+                            </div>
+                        </div>
+                        <div class="card-ai-action">
+                            <button class="ai-action-btn" data-action="forecast" data-translate="forecast">
+                                <i class="fas fa-crystal-ball"></i>
+                                التنبؤ بالمبيعات
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card inventory">
+                        <div class="card-header">
+                            <h4 data-translate="inventory">المخزون</h4>
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="stat-large" id="inventoryCount">0</div>
+                            <div class="stat-trend down">
+                                <i class="fas fa-arrow-down"></i>
+                                <span>-3% يحتاج تجديد</span>
+                            </div>
+                        </div>
+                        <div class="card-ai-action">
+                            <button class="ai-action-btn" data-action="reorder" data-translate="auto_reorder">
+                                <i class="fas fa-robot"></i>
+                                إعادة الطلب تلقائياً
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card customers">
+                        <div class="card-header">
+                            <h4 data-translate="customers">العملاء</h4>
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="stat-large" id="customerCount">0</div>
+                            <div class="stat-trend up">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+8% أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="card-ai-action">
+                            <button class="ai-action-btn" data-action="analyze" data-translate="analyze">
+                                <i class="fas fa-brain"></i>
+                                تحليل العملاء
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card ai-manager">
+                        <div class="card-header">
+                            <h4 data-translate="ai_manager">المدير الذكي</h4>
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="ai-status-full">
+                                <div class="status active">
+                                    <div class="status-dot"></div>
+                                    <span data-translate="active">نشط</span>
+                                </div>
+                            </div>
+                            <div class="ai-tasks">
+                                <p data-translate="tasks_completed">المهام المكتملة:</p>
+                                <div class="task-count">127</div>
+                            </div>
+                        </div>
+                        <div class="card-ai-action">
+                            <button class="ai-action-btn" data-action="manage" data-translate="full_control">
+                                <i class="fas fa-cogs"></i>
+                                التحكم الكامل
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ai-decisions">
+                    <div class="decisions-header">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h4 data-translate="ai_decisions">قرارات الذكاء الاصطناعي الأخيرة</h4>
+                    </div>
+                    <div class="decisions-list" id="aiDecisionsList">
+                        <!-- قرارات الذكاء الاصطناعي تُحمّل بواسطة JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- الخدمات الذكية -->
+            <section class="smart-services">
+                <div class="section-header">
+                    <h2 data-translate="services">الخدمات الذكية</h2>
+                    <p class="section-subtitle" data-translate="services_desc">خدمات متقدمة تعمل بالذكاء الاصطناعي</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h4 data-translate="smart_shipping">الشحن الذكي</h4>
+                        <p data-translate="smart_shipping_desc">تتبع ذكي وتحسين مسارات الشحن تلقائياً</p>
+                        <button class="service-btn" data-service="shipping" data-translate="activate">
+                            <i class="fas fa-rocket"></i>
+                            تفعيل
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-robot"></i>
+                        </div>
+                        <h4 data-translate="ai_support">الدعم الذكي</h4>
+                        <p data-translate="ai_support_desc">رد تلقائي على استفسارات العملاء 24/7</p>
+                        <button class="service-btn" data-service="support" data-translate="activate">
+                            <i class="fas fa-headset"></i>
+                            تفعيل
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-network"></i>
+                        </div>
+                        <h4 data-translate="market_analysis">تحليل السوق</h4>
+                        <p data-translate="market_analysis_desc">تحليل تلقائي للأسعار والمنافسين</p>
+                        <button class="service-btn" data-service="analysis" data-translate="activate">
+                            <i class="fas fa-search-dollar"></i>
+                            تفعيل
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4 data-translate="translation">الترجمة الذكية</h4>
+                        <p data-translate="translation_desc">ترجمة تلقائية للمنتجات والوصف لـ 15 لغة</p>
+                        <button class="service-btn active" data-service="translation" data-translate="active">
+                            <i class="fas fa-globe"></i>
+                            مفعل
                         </button>
                     </div>
                 </div>
             </section>
         </main>
 
-        <!-- الفوتر -->
+        <!-- الفوتر المستقبلي -->
         <footer class="future-footer">
-            <p>© 2050 FutureStore. جميع الحقوق محفوظة.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="hologram-logo small">
+                        <i class="fas fa-cube"></i>
+                        <span>FutureStore 2050</span>
+                    </div>
+                    <p class="footer-description" data-translate="footer_desc">
+                        متجر المستقبل - يعمل بالذكاء الاصطناعي المتكامل لإدارة جميع العمليات تلقائياً
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-translate="quick_links">روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-translate="home">الرئيسية</a></li>
+                        <li><a href="#" data-translate="products">المنتجات</a></li>
+                        <li><a href="#" data-translate="about">عن المتجر</a></li>
+                        <li><a href="#" data-translate="contact">اتصل بنا</a></li>
+                        <li><a href="#" data-translate="ai_assistant">المساعد الذكي</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-translate="services">الخدمات</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-translate="ai_payment">الدفع الذكي</a></li>
+                        <li><a href="#" data-translate="smart_shipping">الشحن الذكي</a></li>
+                        <li><a href="#" data-translate="ai_support">الدعم الذكي</a></li>
+                        <li><a href="#" data-translate="market_analysis">تحليل السوق</a></li>
+                        <li><a href="#" data-translate="translation">الترجمة الذكية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-translate="contact_info">معلومات الاتصال</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ai@futurestore2050.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+966 800 2050 2050</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-translate="riyadh">الرياض، المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-translate="copyright">© 2050 FutureStore. جميع الحقوق محفوظة. مصمم للعمل بالذكاء الاصطناعي المتكامل.</p>
+                <div class="footer-ai-status">
+                    <div class="ai-status-indicator small">
+                        <div class="status-dot active"></div>
+                        <span data-translate="ai_active">الذكاء الاصطناعي نشط</span>
+                    </div>
+                </div>
+            </div>
         </footer>
+    </div>
+
+    <!-- سلة التسوق المستقبلية -->
+    <div class="future-cart" id="futureCart">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> <span data-translate="cart">سلة التسوق الذكية</span></h3>
+            <button class="close-cart" id="closeFutureCart">&times;</button>
+        </div>
+        <div class="cart-content" id="futureCartContent">
+            <!-- عناصر السلة تُحمّل بواسطة JavaScript -->
+            <div class="empty-cart">
+                <i class="fas fa-shopping-bag"></i>
+                <p data-translate="empty_cart">سلة التسوق فارغة</p>
+                <p class="empty-cart-sub" data-translate="empty_cart_sub">استخدم الذكاء الاصطناعي للعثور على منتجات مناسبة لك</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-summary">
+                <div class="summary-item">
+                    <span data-translate="subtotal">المجموع الجزئي:</span>
+                    <span class="summary-value" id="cartSubtotal">0.00</span>
+                    <span class="summary-currency" id="cartCurrency">ر.س</span>
+                </div>
+                <div class="summary-item">
+                    <span data-translate="ai_discount">خصم الذكاء الاصطناعي:</span>
+                    <span class="summary-value discount" id="aiDiscount">-0.00</span>
+                    <span class="summary-currency">ر.س</span>
+                </div>
+                <div class="summary-item total">
+                    <span data-translate="total">المجموع الكلي:</span>
+                    <span class="summary-value" id="cartTotal">0.00</span>
+                    <span class="summary-currency">ر.س</span>
+                </div>
+            </div>
+            <button class="ai-checkout-btn" id="aiCheckoutBtn" data-translate="ai_checkout">
+                <i class="fas fa-robot"></i>
+                إتمام الشراء بالذكاء الاصطناعي
+            </button>
+        </div>
+    </div>
+
+    <!-- نموذج الدفع الذكي -->
+    <div class="ai-payment-modal" id="aiPaymentModal">
+        <div class="payment-modal-content">
+            <div class="payment-modal-header">
+                <h3><i class="fas fa-bolt"></i> <span data-translate="processing_payment">جاري معالجة الدفع بالذكاء الاصطناعي</span></h3>
+                <button class="close-payment-modal" id="closePaymentModal">&times;</button>
+            </div>
+            
+            <div class="payment-modal-body">
+                <div class="payment-progress">
+                    <div class="progress-step active">
+                        <div class="step-number">1</div>
+                        <div class="step-text" data-translate="verification">التحقق</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-number">2</div>
+                        <div class="step-text" data-translate="processing">المعالجة</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-number">3</div>
+                        <div class="step-text" data-translate="confirmation">التأكيد</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-number">4</div>
+                        <div class="step-text" data-translate="completion">الإكمال</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="paymentProgress"></div>
+                    </div>
+                </div>
+                
+                <div class="ai-processing">
+                    <div class="ai-processor">
+                        <div class="processor-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="processor-text">
+                            <h4 data-translate="ai_processing">جاري المعالجة بالذكاء الاصطناعي</h4>
+                            <p id="processingStatus" data-translate="verifying">جارٍ التحقق من بيانات الدفع...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="processing-details">
+                        <div class="detail-item">
+                            <span data-translate="amount">المبلغ:</span>
+                            <span class="detail-value" id="paymentAmountDisplay">0.00 ر.س</span>
+                        </div>
+                        <div class="detail-item">
+                            <span data-translate="method">الطريقة:</span>
+                            <span class="detail-value" id="paymentMethodDisplay">الدفع التلقائي بالذكاء الاصطناعي</span>
+                        </div>
+                        <div class="detail-item">
+                            <span data-translate="security">الأمان:</span>
+                            <span class="detail-value secure"><i class="fas fa-shield-alt"></i> <span data-translate="secure">محمي بالذكاء الاصطناعي</span></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="payment-result" id="paymentResult">
+                    <!-- نتيجة الدفع تُحمّل بواسطة JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الإشعارات الذكية -->
+    <div class="ai-notifications" id="aiNotifications">
+        <!-- الإشعارات تُحمّل بواسطة JavaScript -->
+    </div>
+
+    <!-- التأثيرات الهولوغرامية -->
+    <div class="hologram-effects">
+        <div class="hologram-particle" style="top: 10%; left: 5%;"></div>
+        <div class="hologram-particle" style="top: 20%; right: 15%;"></div>
+        <div class="hologram-particle" style="bottom: 30%; left: 20%;"></div>
+        <div class="hologram-particle" style="top: 50%; right: 10%;"></div>
+        <div class="hologram-particle" style="bottom: 10%; left: 50%;"></div>
     </div>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
